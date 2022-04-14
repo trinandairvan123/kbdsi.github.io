@@ -1,0 +1,111 @@
+.background-white {
+  color: black;
+  border: none;
+  margin-top: 2px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.bg-white-important {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+#dropdown-basicAbout:hover {
+  color: rgb(255, 188, 0);
+}
+
+.item-nav {
+  color: rgb(255, 188, 0);
+  border: none;
+}
+
+.logo-kbds {
+  width: 256px;
+  height: auto;
+  max-width: 100%;
+}
+
+.background-white {
+  color: rgb(255, 188, 0);
+}
+
+@media (min-width: 576px) {
+  .container-sm-detail,
+  .container-detail {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md-detail,
+  .container-sm-detail,
+  .container-detail {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg-detail,
+  .container-md-detail,
+  .container-sm-detail,
+  .container-detail {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl-detail,
+  .container-lg-detail,
+  .container-md-detail,
+  .container-sm-detail,
+  .container-detail {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl-detail,
+  .container-xl-detail,
+  .container-lg-detail,
+  .container-md-detail,
+  .container-sm-detail,
+  .container-detail {
+    max-width: 1320px;
+  }
+}
+.item-nav {
+  color: rgb(255, 188, 0);
+}
+.nav-no-dropdown {
+  display: block;
+  padding: 0.378rem 0.75rem;
+  color: rgb(255, 188, 0);
+  text-decoration: none;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+.item-nav:hover {
+  color: white;
+  background-color: rgb(96, 88, 76);
+}
+.collapsing #navbarNav {
+  overflow: hidden;
+}
+.nav-no-dropdown:hover {
+  color: white;
+  background-color: rgb(96, 88, 76);
+  text-decoration: none;
+  border-color: #6c757d;
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 5px;
+
+  margin-top: 1px;
+  padding: 0.378rem 0.75rem;
+}
+.nav-no-dropdown:active {
+  color: white;
+  background-color: rgb(96, 88, 76);
+  text-decoration: none;
+  border-color: #6c757d;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 1px;
+  padding: 0.2rem 0.57rem;
+}
